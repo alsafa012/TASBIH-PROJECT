@@ -19,6 +19,10 @@ let AllahuakbarInitialValue = 0;
      if (subhanAllahInitialValue === 33){
           return alert('Subhan Allah Complete. Please Fillup anoter one');
      }
+     // if (subhanAllahInitialValue > 0){
+     //      const y = document.getElementById('subhanAllahDecrimentBtn');
+     //      y.removeAttribute('disabled');
+     // }
      subhanAllahInitialValue += 1;
      subhanAllahDisplay.innerText = subhanAllahInitialValue;
 
@@ -72,8 +76,23 @@ let AllahuakbarInitialValue = 0;
 
 
 
+// .document.getElementById('subhanAllahDisplay').addEventListener('keyup',function(event){
+//      const x =event.target.input;
+//      const y = document.getElementById('subhanAllahDecrimentBtn');
+//      if(x >= 0){
+//           y.removeAttribute('disabled');
 
+//      }
+// })
 
-
+// document.getElementById('subhanAllahDisplay').addEventListener('keyup', function(event) {
+//      const x = event.target.value; // Corrected line
+//      const y = document.getElementById('subhanAllahDecrimentBtn');
+     
+//      if (x >= 0) {
+//          y.removeAttribute('disabled');
+//      }
+//  });
+ 
 
 
