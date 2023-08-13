@@ -13,15 +13,18 @@
      <body class="font-sans">
           <header class=" text-4xl md:text-5xl lg:text-6xl text-center lg:mt-20  font-extrabold text-gray-900 dark:text-white my-10 md:my-10 ">
                 <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Digital Tasbih
-                </span></header>
+                </span><br><progress class="progress w-[300px] bg-red-400"></progress>
+                </header>
+                
           <main class="container mx-auto">
                <section class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:mt-24 mx-4">
 
                      <!-- SubhanallahContainer Start -->
 
-                    <div class=" space-y-8  text-center font-bold py-5 shadow rounded-xl ">
+                    <div class="space-y-6 md:space-y-8  text-center font-bold py-5 shadow rounded-xl ">
                          <h2 class=" text-[#F948B2]  text-3xl md:text-3xl lg:text-5xl font-bold pt-5">SUBHANALLAH</h2>
-                         <p id="subhanAllahDisplay" class="text-4xl md:text-5xl lg:text-6xl font-medium ">0</p>
+                         <!-- <progress class="progress w-56 bg-red-400"></progress> -->
+                         <p id="subhanAllahDisplay" class="text-5xl md:text-5xl lg:text-6xl font-medium ">0</p>
                          <div class="pb-5"> 
                               <button id="subhanAllahIncrimentBtn" class="text-white font-bold md:font-semibold lg:font-semibold btn sm:btn-sm md:btn-md lg:btn-lg md:px-3 md:py-2 lg:px-4 lg:py-3 rounded-3xl bg-green-500">INCREMENT</button>
 
@@ -31,8 +34,9 @@
 
                          <!-- AlhamdulillahContainer Start -->
                     </div>
-                    <div class=" space-y-8  text-center font-bold py-5 shadow rounded-xl">
+                    <div class=" space-y-6 md:space-y-8   text-center font-bold py-5 shadow rounded-xl">
                          <h2 class="text-[#F948B2]  text-3xl md:text-3xl lg:text-5xl font-bold pt-5">ALHAMDULILLAH</h2>
+                         <!-- <progress class="progress w-56 bg-red-400"></progress> -->
                          <p id="alhamdulillahDisplay" class="text-4xl md:text-5xl lg:text-6xl font-medium ">0</p>
                          <div class="pb-5"> 
                               <button id="alhamdulillahIncrimentBtn" class="text-white font-bold md:font-semibold lg:font-semibold btn sm:btn-sm md:btn-md lg:btn-lg md:px-3 md:py-2 lg:px-4 lg:py-3 rounded-3xl bg-green-500">INCREMENT</button>
@@ -43,8 +47,9 @@
 
                           <!-- AllahuakberContainer Start -->
                     </div>
-                    <div class=" space-y-8  text-center font-bold py-5 shadow rounded-xl">
+                    <div class=" space-y-6 md:space-y-8   text-center font-bold py-5 shadow rounded-xl">
                          <h2 class="text-[#F948B2] text-3xl md:text-3xl lg:text-5xl font-bold pt-5">Allahu-Akbar</h2>
+                         <!-- <progress class="progress w-56 bg-red-400"></progress> -->
                          <p id="allahAkberDisplay" class="text-4xl md:text-5xl lg:text-6xl font-medium ">0</p>
                          <div class="pb-5"> 
                               <button id="AllahAkberIncrimentBtn"
@@ -58,7 +63,7 @@
                </section>
 
                <div class="flex justify-center mt-8 gap-5">
-                    <button id ="resetBtn" class="text-white resetContainer font-semibold btn sm:btn-sm md:btn-md lg:btn-lg md:px-4 md:py-3 rounded-3xl  bg-indigo-800">RESET ALL TASBIH</button>
+                    <button id ="resetBtn" class="text-white resetContainer font-semibold btn sm:btn-sm md:btn-md lg:btn-lg md:px-4 md:py-3 rounded-3xl mb-5 bg-indigo-800">RESET ALL TASBIH</button>
                
                </div>              
           </main>
